@@ -1,0 +1,55 @@
+[
+	{
+		"type": "note",
+		"title": null,
+		"id": 100,
+		"content": "hopefully this works!!",
+		"datecreated": "2017-07-05T17:01:42+02:00",
+		"color": "#519872"
+	},
+	{
+		"type": "note",
+		"title": "whee a title",
+		"id": 102,
+		"content": "making good progress so far....",
+		"datecreated": "2017-07-05T17:01:42+02:00",
+		"color": "#519872"
+	},
+	{
+		"type": "list",
+		"title": "todo",
+		"id": 101,
+		"content": [
+			{
+				"content": "laundry",
+				"done": false
+			},
+			{
+				"content": "dishes",
+				"done": true
+			},
+			{
+				"content": "water plants",
+				"done": true
+			}
+		],
+		"datecreated": "2017-07-04T12:01:20Z",
+		"color": "#F4B393"
+	},
+	{
+		"type": "note",
+		"title": null,
+		"id": 103,
+		"content": "hopefully this works!!",
+		"datecreated": "2017-07-05T17:01:42+02:00",
+		"color": "#519872"
+	},
+	{
+		"type": "note",
+		"title": null,
+		"id": 104,
+		"content": "oh man i sure do hope that this works",
+		"datecreated": "2017-07-05T17:01:42+02:00",
+		"color": "#519872"
+	}
+]
