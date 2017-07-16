@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.note {
+	width: 20vw;
+	/*margin-right: 2vw;*/
+	border: red dashed 2px;
+	margin: 2em;
+}
