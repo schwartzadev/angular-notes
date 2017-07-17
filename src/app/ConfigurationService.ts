@@ -11,10 +11,17 @@ import 'rxjs/add/operator/catch';
 // Service class to call REST API
 @Injectable()
 export class ConfigurationService {
-    constructor(private http: Http) {
-    }
+	url: string = 'assets/fullExample.json';
+
+    constructor(private http: Http) { }
  
     getConfiguration = (): Observable<Response> => {
-        return this.http.get('assets/fullExample.json').map(res => res.json());
+        return this.http.get(this.url).map(res => res.json());
+    }
+
+    save(object) {
+    	// needs to save rest item to json file
+    	console.log('saving.....');
+    	console.log(object);
     }
 }

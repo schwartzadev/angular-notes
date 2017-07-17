@@ -1,27 +1,22 @@
 <div class="container">
-	<div class="note" *ngFor="let note of notes">
-		<h2>{{note?.title}}</h2>
+	<div class="note" *ngFor="let note of notes" style="background-color: {{note.color}}" (click)="onSelect(note)">
+		<h2 class="title">{{note?.title}}</h2>
 		<p>{{note?.color}}</p>
 		<div *ngIf="note?.type==='list'">
-			<ul *ngFor="let item of note.content">
-				<li><h3>{{item.content}}</h3></li>
+			<ul class="content listcontent" *ngFor="let item of note.content">
+				<li *ngIf="item.done">
+					<h3><input type="checkbox" checked  (click)="onCheck(note, item)">{{item.content}} - {{item.done}}</h3>
+				</li>
+				<li *ngIf="!item.done">
+					<h3><input type="checkbox" (click)="onCheck(note, item)">{{item.content}} - {{item.done}}</h3>
+				</li>
 			</ul>
 		</div>
 		<div *ngIf="note?.type!=='list'">
-			<h3>{{note?.content}}</h3>
+			<h3 class="content notecontent">{{note?.content}}</h3>
 		</div>
-		<p>{{note?.datecreated}}</p>
-		<p>{{note?.id}}</p>
-		<!-- </div> -->
+		<p class="date">{{note?.datecreated}}</p>
+		<br>
+		<p class="id">{{note?.id}}</p>
 	</div>
 </div>
-<!-- <div *ngfor="let note of notes">
-  {{note}}
-</div> -->
-
-<!-- <div class="{{notes?.type}}">
-</div> -->
-
-<!-- {{notes?.securityservice}}
-<br>
-{{notes?.cacheservice}} -->

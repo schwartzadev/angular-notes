@@ -1,11 +1,28 @@
 .container {
-  display: flex;
-  flex-flow: row wrap;
+	display: flex;
+	flex-flow: row wrap;
 }
 
 .note {
-	width: 20vw;
+	width: 300px;
 	/*margin-right: 2vw;*/
-	border: red dashed 2px;
+	/*border: red solid 4px;*/
+	border-radius: 12px;
 	margin: 2em;
+	background-color: green;
+	position: relative;
+}
+
+.note > * {
+	padding-left: 20px;
+}
+
+.note p.id {
+	color: rgba(255,255,255,0.3);
+	/*text-align: right;*/
+	margin: 0 .8em .3em 0;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	/*padding-bottom: 5px;*/
 }

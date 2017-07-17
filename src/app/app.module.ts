@@ -5,6 +5,7 @@ import { FormsModule }   from '@angular/forms';
 import { HttpModule }       from '@angular/http';
 import { AppComponent }  from './app.component';
 import { ConfigurationService } from './ConfigurationService';
+import { NoteComponent } from './note/note.component';
 
 @NgModule({
   imports: [
@@ -13,7 +14,8 @@ import { ConfigurationService } from './ConfigurationService';
     HttpModule
   ],
   declarations: [
-    AppComponent
+    AppComponent,
+    NoteComponent
   ],
   providers: [ConfigurationService],
   bootstrap: [ AppComponent ]

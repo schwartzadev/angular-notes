@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ConfigurationService } from '../ConfigurationService';
+import { Note, List, Listitem } from '../note';
 
 
 @Component({
@@ -7,24 +8,48 @@ import { ConfigurationService } from '../ConfigurationService';
 	templateUrl: './note.component.html',
 	styleUrls: ['./note.component.css']
 })
+
 export class NoteComponent implements OnInit {
 	title = 'notes app';
 	notes;
+	currentNote: Note;
 
-	constructor(private _ConfigurationService: ConfigurationService) {
+	constructor(private _ConfigurationService: ConfigurationService) { }
+
+	ngOnInit() {
 		console.log("getting config...");
 		this._ConfigurationService.getConfiguration()
 		.subscribe(
 			(res) => {
 				this.notes = res;
-				console.log(this.notes);
 			},
 			(error) => console.log("error : " + error),
 			// () => console.log('Error in GetApplication in Login : ' + Error)
 			);
-		// this.notes = this.notes['notes'];
+	}
 
+	getNoteByID(id: number) {
+		return this.notes
+		.map(notes => this.notes.filter(note => note.id === id))[0][0];
 	}
-	ngOnInit() {
+
+	getListItem(content: String, list: List) {
+		var items = list.content;
+		// console.log(items);
+		return list.content
+		// .map(items => items.filter(item => item.content === content));
 	}
+
+	onSelect(note: Note): void {
+		// console.log('clicked ' + note.id);
+		this.currentNote = note;
+	}
+
+	onCheck(note: Note, item) {
+		item.done = !item.done;
+		console.log('note ' + note.id + '\t' + item.content + '\t' + item.done);
+		console.log(this.notes);
+		this._ConfigurationService.save(this.notes);
+	}
+
 }
