@@ -41,7 +41,7 @@ export class NoteComponent implements OnInit {
 	}
 
 	onSelect(note: Note): void {
-		// console.log('clicked ' + note.id);
+		// console.log('clicked ' + note.done);
 		this.currentNote = note;
 	}
 
@@ -50,6 +50,15 @@ export class NoteComponent implements OnInit {
 		console.log('note ' + note.id + '\t' + item.content + '\t' + item.done);
 		console.log(this.notes);
 		this._ConfigurationService.save(this.notes);
+	}
+
+	onDelete(note: Note) {
+		note.done = !note.done; // should make done prop to true
+		let index: number = this.notes.indexOf(note);
+		if (index !== -1) {
+			this.notes.splice(index, 1);
+		}
+		console.log(this.notes);
 	}
 
 }

@@ -26,3 +26,12 @@
 	right: 0;
 	/*padding-bottom: 5px;*/
 }
+
+.toolbar {
+	position: absolute;
+	bottom: .5em;
+}
+
+.toolbar img.trash {
+	width: 25px;
+}

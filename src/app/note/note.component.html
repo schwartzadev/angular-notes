@@ -1,14 +1,14 @@
 <div class="container">
-	<div class="note" *ngFor="let note of notes" style="background-color: {{note.color}}" (click)="onSelect(note)">
+	<div class="note" *ngFor="let note of notes" style="background-color: {{note.color}}" (click)="onSelect(note)" [hidden]="note.done">
 		<h2 class="title">{{note?.title}}</h2>
 		<p>{{note?.color}}</p>
 		<div *ngIf="note?.type==='list'">
 			<ul class="content listcontent" *ngFor="let item of note.content">
 				<li *ngIf="item.done">
-					<h3><input type="checkbox" checked  (click)="onCheck(note, item)">{{item.content}} - {{item.done}}</h3>
+					<h3><input type="checkbox" checked  (click)="onCheck(note, item)">{{item.content}}</h3>
 				</li>
 				<li *ngIf="!item.done">
-					<h3><input type="checkbox" (click)="onCheck(note, item)">{{item.content}} - {{item.done}}</h3>
+					<h3><input type="checkbox" (click)="onCheck(note, item)">{{item.content}}</h3>
 				</li>
 			</ul>
 		</div>
@@ -17,6 +17,13 @@
 		</div>
 		<p class="date">{{note?.datecreated}}</p>
 		<br>
+		<br>
+		<div class="toolbar">
+			<img class="trash" src="assets/trash.svg" (click)="onDelete(note)">
+		</div>
 		<p class="id">{{note?.id}}</p>
+	</div>
+	<div *ngIf="notes?.length === 0">
+		<h2 style="text-align: center">no notes...bummer, try adding some content!</h2>
 	</div>
 </div>

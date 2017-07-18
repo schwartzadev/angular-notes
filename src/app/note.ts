@@ -1,4 +1,5 @@
 export interface Note {
+  done: boolean;
   type: string;
   title: string;
   id: number;

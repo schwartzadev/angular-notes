@@ -1,6 +1,7 @@
 [
 	{
 		"type": "note",
+		"done": false,
 		"title": null,
 		"id": 100,
 		"content": "hopefully this works!!",
@@ -9,6 +10,7 @@
 	},
 	{
 		"type": "note",
+		"done": false,
 		"title": "whee a title",
 		"id": 102,
 		"content": "making good progress so far....",
@@ -17,6 +19,7 @@
 	},
 	{
 		"type": "list",
+		"done": false,
 		"title": "todo",
 		"id": 101,
 		"content": [
@@ -38,6 +41,7 @@
 	},
 	{
 		"type": "note",
+		"done": false,
 		"title": null,
 		"id": 103,
 		"content": "hopefully this works!!",
@@ -46,6 +50,7 @@
 	},
 	{
 		"type": "note",
+		"done": false,
 		"title": null,
 		"id": 104,
 		"content": "oh man i sure do hope that this works",
