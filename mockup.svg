@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="mocup.svg">
+   sodipodi:docname="mockup.svg">
   <defs
      id="defs4">
     <marker
@@ -69,11 +69,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.49497475"
-     inkscape:cx="-477.31686"
-     inkscape:cy="1524.1615"
+     inkscape:zoom="0.38406041"
+     inkscape:cx="-2316.4286"
+     inkscape:cy="587.27828"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g3972"
      showgrid="false"
      inkscape:window-width="1536"
      inkscape:window-height="811"
@@ -235,5 +235,172 @@
          id="flowPara4698">New note:</flowPara><flowPara
          id="flowPara4700">- type</flowPara><flowPara
          id="flowPara4704">- content</flowPara><flowPara
-         id="flowPara4708">- needs to add to, save notes object</flowPara></flowRoot>  </g>
+         id="flowPara4708">- needs to add to, save notes object</flowPara></flowRoot>    <rect
+       transform="scale(1,-1)"
+       ry="58.711411"
+       y="-674.75677"
+       x="-2449.7546"
+       height="660.50342"
+       width="596.6156"
+       id="rect3887"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#aaffee;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3889"
+       style="font-style:normal;font-weight:normal;font-size:56.4236412px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       transform="translate(52,8)"><flowRegion
+         id="flowRegion3891"><rect
+           id="rect3893"
+           width="692.50732"
+           height="213.73683"
+           x="-2452.979"
+           y="43.956108" /></flowRegion><flowPara
+         id="flowPara3895"
+         style="font-weight:bold">Title oh boy!</flowPara></flowRoot>    <g
+       id="g3907"
+       transform="translate(-1.9993895,-5.1257882e-5)">
+      <rect
+         ry="0"
+         y="185.1403"
+         x="-2375.1433"
+         height="18.732428"
+         width="18.732428"
+         id="rect3897"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#dcdcdc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <flowRoot
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot3899"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3901"><rect
+             y="168.07649"
+             x="-2332.8572"
+             height="68.571426"
+             width="332.85715"
+             id="rect3903" /></flowRegion><flowPara
+           id="flowPara3905">list item #1</flowPara></flowRoot>    </g>
+    <g
+       id="g3914"
+       transform="translate(-1.9993895,72.179636)">
+      <rect
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#dcdcdc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         id="rect3916"
+         width="18.732428"
+         height="18.732428"
+         x="-2375.1433"
+         y="185.1403"
+         ry="0" />
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot3918"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+           id="flowRegion3920"><rect
+             id="rect3922"
+             width="332.85715"
+             height="68.571426"
+             x="-2332.8572"
+             y="168.07649" /></flowRegion><flowPara
+           id="flowPara3924">list item deux</flowPara></flowRoot>    </g>
+    <g
+       transform="translate(-1.9993895,144.43745)"
+       id="g3926">
+      <rect
+         ry="0"
+         y="185.1403"
+         x="-2375.1433"
+         height="18.732428"
+         width="18.732428"
+         id="rect3928"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#dcdcdc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <flowRoot
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot3930"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3932"><rect
+             y="168.07649"
+             x="-2332.8572"
+             height="68.571426"
+             width="332.85715"
+             id="rect3934" /></flowRegion><flowPara
+           id="flowPara3936">list item # tres</flowPara></flowRoot>    </g>
+    <g
+       id="g3938"
+       transform="translate(-1.9993895,216.81245)">
+      <rect
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#dcdcdc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         id="rect3940"
+         width="18.732428"
+         height="18.732428"
+         x="-2375.1433"
+         y="185.1403"
+         ry="0" />
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot3942"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"><flowRegion
+           id="flowRegion3944"><rect
+             id="rect3946"
+             width="332.85715"
+             height="68.571426"
+             x="-2332.8572"
+             y="168.07649" /></flowRegion><flowPara
+           id="flowPara3948">list item five</flowPara></flowRoot>    </g>
+    <g
+       transform="translate(-1.9993895,288.99214)"
+       id="g3950">
+      <rect
+         ry="0"
+         y="185.1403"
+         x="-2375.1433"
+         height="18.732428"
+         width="18.732428"
+         id="rect3952"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#dcdcdc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <flowRoot
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="flowRoot3954"
+         xml:space="preserve"><flowRegion
+           id="flowRegion3956"><rect
+             y="168.07649"
+             x="-2332.8572"
+             height="68.571426"
+             width="332.85715"
+             id="rect3958" /></flowRegion><flowPara
+           id="flowPara3960">list item VI</flowPara></flowRoot>    </g>
+    <g
+       id="g3972"
+       transform="translate(-6,-8.410356e-6)">
+      <path
+         inkscape:connector-curvature="0"
+         id="rect3965"
+         d="m -2361.4285,549.505 c -0.9673,0 -1.7456,0.77891 -1.7456,1.74622 l 0,12.22231 -12.2223,0 c -0.9673,0 -1.7463,0.77831 -1.7463,1.74562 0,0.96731 0.779,1.74621 1.7463,1.74621 l 12.2223,0 0,12.22231 c 0,0.96731 0.7783,1.74622 1.7456,1.74622 0.9673,0 1.7462,-0.77891 1.7462,-1.74622 l 0,-12.22231 12.2224,0 c 0.9672,0 1.7462,-0.7789 1.7462,-1.74621 0,-0.96731 -0.779,-1.74562 -1.7462,-1.74562 l -12.2224,0 0,-12.22231 c 0,-0.96731 -0.7789,-1.74622 -1.7462,-1.74622 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#dcdcdc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <rect
+         ry="5.7142901"
+         y="540.21942"
+         x="-2324.2856"
+         height="50"
+         width="290"
+         id="rect3970"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.5;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </g>
+    <g
+       id="g3982"
+       transform="translate(3.3018785,0)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3976"
+         d="m -2380.2974,192.39952 7.8997,7.89965 16.1355,-16.13545"
+         style="fill:none;fill-rule:evenodd;stroke:#3b3b3b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:#3b3b3b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -2380.2974,336.90804 7.8997,7.89965 16.1355,-16.13545"
+         id="path3978"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3980"
+         d="m -2380.2974,406.55854 7.8997,7.89965 16.1355,-16.13545"
+         style="fill:none;fill-rule:evenodd;stroke:#3b3b3b;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+  </g>
 </svg>
